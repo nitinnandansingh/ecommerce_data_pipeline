@@ -19,7 +19,9 @@ This project is an ETL (Extract, Transform, Load) data pipeline for an e-commerc
    cd e-commerce_data_pipeline
 
 2. Install Dependencies
+```
    pip install -r requirements.txt
+```
 
 3.	Setup Airflow
 Initialize the Airflow database:
