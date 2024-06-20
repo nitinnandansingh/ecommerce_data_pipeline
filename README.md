@@ -23,9 +23,11 @@ This project is an ETL (Extract, Transform, Load) data pipeline for an e-commerc
 
 3.	Setup Airflow
 Initialize the Airflow database:
+```
    airflow db init
-
+```
 3.	Create a user for the Airflow web interface:
+```
 airflow users create \
    --username admin \
    --password admin \
@@ -33,7 +35,7 @@ airflow users create \
    --lastname YOUR_LAST_NAME \
    --role Admin \
    --email YOUR_EMAIL
-
+```
 
 4.	Configure MySQL Database
 Login with correct credentials.
