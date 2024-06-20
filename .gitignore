@@ -1,0 +1,6 @@
+assets/
+*.xlsx
+*.txt
+*.cfg
+*.db
+logs/
